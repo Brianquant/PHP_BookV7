@@ -4,15 +4,19 @@
 $pers = array(
             array("Maier", "Hans", 6714, 3500),
             array("Schmitz", "Peter", 81343, 3750));
-
 /*3. Zeile */
 $pers[2][0] = "Mertens";
 $pers[2][1] = "Julia";
 $pers[2][2] = 2297;
 $pers[2][3] = 3621.50;
 
+$pers[3][0] = "Garfield";
+$pers[3][1] = "Kevin";
+$pers[3][2] = 4000;
+$pers[3][3] = 33095.50;
+
 echo "<table border=\"1\">";
-for($i = 0; $i < 3; $i++)
+for($i = 0; $i < 4; $i++)
 {
     echo "<tr>";
     for($k = 0; $k < 4; $k++) {
